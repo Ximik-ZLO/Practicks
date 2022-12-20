@@ -106,16 +106,16 @@ h3{
 .HatInfo{
     display: flex;
 }
-.deliberyAHatInfo,.serviceAHatInfo,.toOrderAHatInfo{
-    text-decoration: none;
-    color: #000;
-}
 .textHatInfo{
     margin-right: 55px;
     font-family: 'Golos';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+}
+.deliberyAHatInfo,.serviceAHatInfo,.toOrderAHatInfo{
+    text-decoration: none;
+    color: #000;
 }
 .regInEnter{
     display: flex;
@@ -131,208 +131,115 @@ h3{
     margin-top: -2px;
 }
 
-/* Рекламный банер */
-.advertising{
-    margin-top: 80px;
-    max-width: 1920px;
-    height: 270px;
-    border-radius: 10px;
-    background-color: rgb(3,37,92);
-    display: flex;
-}
-.textAdvertising{
-    font-family: 'Golos DemiBold';
-    font-size: 18px;
-    text-align: center;
-    color:#FFFFFF;
-    margin-top: 85px;
-    margin-left: 21px;
-    margin-right: 21px;
-}
-.imgAdvertising{
-    width: 360px;
-    height: 237px;
-    margin-top: 19px;
-    margin-left: 21px;
-}
-
-/* Доставка товаров из любых стран мира в Россию */
-.deliberyInRussia{
+/* Способы и сроки доставки в Россию */
+.deliberyMetodsAndMetods{
     margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
-.infoDeliberyInRussia{
-    width: 562px;
-    height: 337px;
+.textDeliberyMetodsAndMetods{
+    max-width: 735px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom:auto;
 }
-.textHinfoDeliberyInRussia{
-    font-family: 'Golos Bold';
-    font-size: 36px;
+.hTextDeliberyMetodsAndMetods{
+    margin-top: 22px;
 }
-.textInfoDeliberyInRussia{
-    margin-top: 14px;
-    font-family: 'Golos Regular';
-    font-size: 24px;
+.textInfoTextDeliberyMetodsAndMetods{
+    margin-top: 15px;
 }
-.bottomDeliberyInRussia{
-    width: 250px;
+
+
+/* Сроки доставки */
+.deliberyTime{
     display: flex;
-    align-items:center;
-    height: 39px;
-    border-radius: 7px ;
-    background-color:#0043FA;
-    margin-top: 25px;
+    justify-content: space-between;
+    margin-top: 80px;
 }
-.textbottomDeliberyInRussia{
-    color: #FFFFFF;
-    font-family: 'Golos DemiBold' ;
-    font-size: 20px;
-    padding-left: 25px;
-
-}
-.iconDeliberyInRussia{
-    margin-top: 2px;
-}
-.buttimDeliberyDeliberyInRussia{
-    text-decoration: none;
-}
-
-
-/* Три шага к зарубежному шопингу */
-.shopingThreeStep{
-    margin-top: 110px;
+.textDeliberyTime{
+    max-width: 783px;
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
     text-align: center;
 }
-.contentShopingThreeStep{
-    margin-top: 62px;
+.gerbIconLeftDeliberyTime,.gerbIconRightDeliberyTime{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.textInfoDeliberyTime{
+    margin-top: 11px;
+}
+
+
+/* Как узнать стоимость? */
+.findOutCost{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.textFindOutCost{
+    margin-top: 80px;
+    padding-top: 22px;
+}
+.textInfoFindOutCost{
+    margin-top: 15px;
+}
+.buttomFindOutCost{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.buttomFormObrButtomFindOutCost{
+    text-align: center;
+    align-items: center;
+    background-color: #0043FA;
+    max-width: 250px;
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+}
+.textHButtomFormObrButtomFindOutCost{
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+/* Способы доставки */
+.deliveryMetods{
+    display: block;
+    margin-top: 80px;
+}
+.textHDeliveryMetods{
+    text-align: center;
+    margin-top: 23px;
+}
+.smallPackageDeliveryMetods,.sendingDeliveryMetods,.firstClassPacelDeliveryMetods{
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 }
-.blockContentShopingThreeStep{
-    width: 297px;
-    height: 421px;
+.textinfosmallPackageDeliveryMetods,.textInfosendingDeliveryMetods,.textInfofirstClassPacelDeliveryMetods{
+    margin-right: 75px;
 }
-.hInfoblockContentShopingThreeStep{
-    font-family: 'Golos DemiBold';
-    font-size: 36px;
-    margin-top: 6px;
+.textInfoTextinfosmallPackageDeliveryMetods,.textInfoTextInfosendingDeliveryMetods,.tetxInfoTextInfofirstClassPacelDeliveryMetods{
+    margin-top: 20px;
 }
-.textInfoInBlockContentShopingThreeSrep{
-    font-family: 'Golos Regular';
-    font-size: 24px;
-    margin-top: 6px;
-}
-
-
-/* Начни свой шопинг сейчас */
-.goInShoping{
-    margin-top: 80px;
+.buttomFindOutCost{
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
-.texthGoInShoping{
-    font-family: 'Golos Bold';
-    font-size: 36px;
-}
-.textInfoGoInShoping{
-    margin-top: 3px;
-    font-family: 'Golos Regular';
-    font-size: 22px;
-}
-.bottomGoInShoping{
-    display: flex;
-    align-items:center;
-    background-color:#0043FA;
-    margin-top: 30px;
-    max-width: 400px;
+.buttomFormButtom{
+    max-width: 360px;
+    height: 40px;
     width: 100%;
-    height: 45px;
-    font-family: 'Golos DemiBold';
-    font-size: 24px;
+    background-color: #0043FA;
     border-radius: 7px;
+}
+.textHButtomFormButtom{
+    margin-top: 8px;
     color: #FFFFFF;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-.textInfoBottomGoInShoping{
-    margin-left: 59px;
-}
-
-.imgGoInShoping{
-    height: 14px;
-    width: 10px;
-    padding-left: 6px;
-    padding-top: 5px;
-}
-
-
-/* Почему Почта России? */
-.whyUs{
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-}
-.infoBlockWhyUs{
-    width: 461px;
-}
-.textInfoBlockWhyUs{
-    margin-top:9px ;
-    width: 457px;
-    font-size: 21px;
-}
-.videoWhyUs{
-    margin: 0;
-    padding: 0;
-}
-.InfovideoWhyUs{
-    border-radius: 7px;
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-    margin-top: 5px;
-}
-
-
-/* Отзывы */
-.Reviews{
-    margin-top: 80px;
-    text-align: center
-}
-.hReviews{
-    margin-bottom: 25px;
-}
-.textInfoReviews{
-    margin-bottom: 28px;
-    font-family: 'Golos Medium';
-    font-size: 22px;
-}
-.blockReviews{
-    display: flex;
-    justify-content: space-between;
-}
-.blockReviewsContent{
-    width: 297px;
-    text-align: center;
-}
-.textInfoblockReviewsContent{
-    margin-top: 24px;
-}
-
-
-/* Ответы на главные вопросы о зарубежном шопинге */
-.answToQuestion{
-    margin-top: 80px;
-    text-align: center;
-}
-.answToQuestion p{
-    font-family: 'Golos Regular';
-    font-size: 16px;
-}
-.hInfoContentInfoanswToQuestion{
-    margin-top: 35px;
-}
-.tetxInfoContentInfoanswToQuestion{
-    margin-top: 10px;
 }
 
 
