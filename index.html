@@ -4,18 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="/css/osn.css">
+    <title>Почта России</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <div class="osnContent">
     <div class="content">
         <div class="hat">
-            <a href="osn.html"><img src="/img/Logo.svg" alt="Ошибка"></a>
+            <a class="logoHat" href="index.html"><img class="imgLogoHat" src="/img/Logo.svg" alt="Ошибка"></a>
             <div class="HatInfo">
                 <a class="deliberyAHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a>
                 <a class="serviceAHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a>
-                <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>             
+                <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>
+
+
+                <nav role='navigation'>
+                    <div id="menuToggle">
+                      <input type="checkbox" />
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul id="menu">
+                        <a href="#">
+                        <li>
+                            <div class="regInEnterLi">
+                                <p class="loginHat">Войти</p>
+                                <img class="imgRegInEnter" src="/img/User.png" alt="Пфхх">
+                            </div>
+                        </li>
+                        </a>
+                        <li><a class="deliberyAburgerHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a></li>
+                        <li><a class="serviceAburgerHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a></li>
+                        <li><a class="toOrderAburgerHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p></a></li>  
+                      </ul>
+                    </div>
+                  </nav>
+      
             </div>
             <div class="regInEnter">
                 <p class="loginHat">Войти</p>
@@ -24,6 +48,7 @@
         </div>
 
         <div class="advertising">
+            <div class="adaptivAdvertising"><img class="imgadaptivAdvertising" src="/img/saleUs.svg" alt=""></div>
             <img class="imgAdvertising" src="/img/saleUs.svg" alt="">
             <p class="textAdvertising">Новогодний и рождественский период в США — это огромное  количество скидок и распродаж. Регистрируйся  в
                 Почта России, чтобы с выгодой купить одежду и гаджеты любимых брендов. Используйте преимущества американского шопинга и заказывайте вещи со скидками до 80%.
@@ -41,7 +66,7 @@
                     </div>
             </div>
             <div class="iconDeliberyInRussia">
-                <img src="/img/Gerb.svg" alt="Ошибка">
+                <img class="imgIconDeliberyInRussia" src="/img/Gerb.svg" alt="Ошибка">
             </div>
         </div>
 
@@ -49,17 +74,17 @@
             <h1>Три шага к Зарубежному шопингу</h1>
             <div class="contentShopingThreeStep">
                 <div class="blockContentShopingThreeStep">
-                    <img src="/img/konvert.png" alt="">
+                    <img class="imgBlockContentShopingThreeStep" src="/img/konvert.png" alt="">
                     <h2 class="hInfoblockContentShopingThreeStep">Регистрируйся</h2>
                     <p class="textInfoInBlockContentShopingThreeSrep">Получай уникальный адрес </p>
                 </div>
                 <div class="blockContentShopingThreeStep">
-                    <img src="/img/shopingItem.png" alt="">
+                    <img class="imgBlockContentShopingThreeStep" src="/img/shopingItem.png" alt="">
                     <h2 class="hInfoblockContentShopingThreeStep">Покупай</h2>
                     <p class="textInfoInBlockContentShopingThreeSrep">Заказывай вещи на полученный адрес</p>
                 </div>
-                <div class="blockContentShopingThreeStep">
-                    <img src="/img/BoxItem.png" alt="">
+                <div  class="blockContentShopingThreeStep">
+                    <img class="imgBlockContentShopingThreeStep" src="/img/BoxItem.png" alt="">
                     <h2 class="hInfoblockContentShopingThreeStep">Получай</h2>
                     <p class="textInfoInBlockContentShopingThreeSrep">Оформляй доставку
                         в Россию</p>
@@ -73,8 +98,10 @@
             </p>
 
             <div class="bottomGoInShoping">
-                <p class="textInfoBottomGoInShoping">Начни шопиться сейчас</p>
-                <img class="imgGoInShoping" src="/img/strelRight.svg" alt="">
+                <div class="blockBottomGoInShoping">
+                    <p class="textInfoBottomGoInShoping">Начни шопиться сейчас</p>
+                    <img class="imgGoInShoping" src="/img/strelRight.svg" alt="">
+                </div>
         </div>
         </div>
 
@@ -98,18 +125,18 @@
                </p>
             <div class="blockReviews">
                 <div class="blockReviewsContent">
-                    <img src="/img/RewPlays.png" alt="">
+                    <img class="imgBlockReviewsContent" src="/img/RewPlays.png" alt="">
                     <p class="textInfoblockReviewsContent">Здравствуйте. Посылку получил в лучшем виде. Все отправления на месте!!! Немного задержалась в Германии, но в целом доволен и буду ещё пользоваться Вашими услугами. Спасибо!
                     </p>
                 </div>
                 <div class="blockReviewsContent">
-                    <img src="/img/RewBoot.png" alt="">
+                    <img class="imgBlockReviewsContent" src="/img/RewBoot.png" alt="">
                     <p class="textInfoblockReviewsContent">Насмотревшись кейсов задержек посылок на европейских таможнях, решил переплатить и попробовать Qwintry Smart. Общее время доставки из США вышло - 27 дней. Посылка попав в аэропорт Нью-Йорка.
                     </p>
                 </div>
                 <div class="blockReviewsContent">
-                    <img src="/img/RewWotch.png" alt="">
-                    <p class="textInfoblockReviewsContent">Это моя первая посылка с бандерольки! Как же давно об этом я думал и вот только под конец 2022 года решился. Как итог - 16 дней из США. По-моему, это отличный результат, хотя мне и не с чем сравнить пока :) Заказывал 2 часов Эппл, размер, как и вы.</p>
+                    <img class="imgBlockReviewsContent" src="/img/RewWotch.png" alt="">
+                    <p class="textInfoblockReviewsContent">Это моя первая посылка с бандерольки! Как же давно об этом я думал и вот только под конец 2022 года решился. Как итог - 16 дней из США. По-моему, это отличный результат, хотя мне и не с чем сравнить пока :)</p>
                 </div>
             </div>
         </div>
@@ -156,13 +183,21 @@
             <div class="imgDownPrilInInfoForUs">
                 <p>Интересные истории, скидки и промоакции тут:</p>
                 <div class="infoGroopsIfoForUs">
-                    <img src="/img/icon-Ok.svg" alt="">
-                    <img src="/img/icon-vk.svg" alt="">
-                    <img src="/img/icon-fb.svg" alt="">
-                    <img src="/img/icon-telegram.svg" alt="">
-                    <img src="/img/icon-instagram.svg" alt="">
-                    <img width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
                 </div>
+                <div class="adaptivOneinfoGroopsIfoForUs">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt=""></div>
+                <div class="adaptiveTwhoInfoGroopsIfoForUs">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+                    <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt=""></div>
             </div>
         </div>
 
@@ -170,11 +205,38 @@
             <p>О компании</p>
             <p>Отзывы клиентов</p>
             <p>Главные вопросы</p>
+            <p class="VNInfoPodval">Раскрытие информации</p>
+            <p class="VNInfoPodval">Вакансии</p>
+            <p class="VNInfoPodval">Новости</p>
+            <p class="ttt">2022 © АО Почта России</p>
+        </footer>
+        <div class="adaptivVNInfoPodval">
+            <p class="infoPadaptivVNInfoPodval">Раскрытие информации</p>
+            <p class="infoPadaptivVNInfoPodval">Вакансии</p>
+            <p class="infoPadaptivVNInfoPodval">Новости</p>
+        </div>
+
+        <div class="adaptivInfoPost">
+            <p class="infoPost">2022 © АО Почта России</p>
+        </div>
+        <div id="adaptivePodval" class="adaptivePodvalFourContent">
+            <p>О компании</p>
+            <p>Отзывы клиентов</p>
+        </div>
+        <div class="adaptivePodvalFourContent">
+            <p>Главные вопросы</p>
             <p>Раскрытие информации</p>
+        </div>
+        <div class="adaptivePodvalFourContent">
             <p>Вакансии</p>
             <p>Новости</p>
+        </div>
+        <div id="adaptPost" class="adaptivePodvalFourContent">
             <p>2022 © АО Почта России</p>
-        </footer>
+        </div>
+
+
+
 
     </div>
 </div>
