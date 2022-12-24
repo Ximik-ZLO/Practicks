@@ -10,13 +10,37 @@
 <body>
     <div class="osnContent">
         <div class="content">
-             <!-- Шапка -->
-             <div class="hat">
-                <a href="index.html"><img src="/img/Logo.svg" alt="Ошибка"></a>
+            <!-- Шапка -->
+            <div class="hat">
+                <a class="logoHat" href="index.html"><img class="imgLogoHat" src="/img/Logo.svg" alt="Ошибка"></a>
                 <div class="HatInfo">
                     <a class="deliberyAHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a>
                     <a class="serviceAHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a>
-                    <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>             
+                    <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>
+    
+    
+                    <nav role='navigation'>
+                        <div id="menuToggle">
+                          <input type="checkbox" />
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <ul id="menu">
+                            <a href="#">
+                            <li>
+                                <div class="regInEnterLi">
+                                    <p class="loginHat">Войти</p>
+                                    <img class="imgRegInEnter" src="/img/User.png" alt="Пфхх">
+                                </div>
+                            </li>
+                            </a>
+                            <li><a class="deliberyAburgerHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a></li>
+                            <li><a class="serviceAburgerHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a></li>
+                            <li><a class="toOrderAburgerHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p></a></li>  
+                          </ul>
+                        </div>
+                      </nav>
+          
                 </div>
                 <div class="regInEnter">
                     <p class="loginHat">Войти</p>
@@ -27,7 +51,7 @@
             <div class="generalInformationServicesOffices">
                 <div class="textGeneralInformationServicesOffices"><h1>Общая информация об услугах в отделениях</h1></div>
                 <div class="blockGeneralInformationServicesOffices">
-                    <div class="imgOneGeneralInformationServicesOffices"><img src="/img/ParcelWithoutPeople.png" alt=""></div>
+                    <div class="imgOneGeneralInformationServicesOffices"><img class="imgimgOneGeneralInformationServicesOffices" src="/img/ParcelWithoutPeople.png" alt=""></div>
                     <div class="imgGeneralInformationServicesOffices">
                         <div class="blockImgImgGeneralInformationServicesOffices"><img class="imgImgGeneralInformationServicesOffices" src="/img/ParcelWithPeople.png" alt=""></div>
                         <div class="blockImgImgGeneralInformationServicesOffices"><img class="imgImgGeneralInformationServicesOffices" src="/img/ParcelInHand.png" alt=""></div>
@@ -66,39 +90,70 @@
 
 
 
-<!-- приложение -->
-<div class="ifoForUs">
-    <div class="downPrilInfoForUs">
-        <p>Установите приложение</p>
-        <div class="iconPrilInfoForUs">
-            <img class="imgIconPrilInfoForUs" src="/img/icon-GooglePlay.png" alt="">
-            <img class="imgIconPrilInfoForUs" src="/img/icon-appStore.png" alt="">
-        </div>
-    </div>
-
-    <div class="imgDownPrilInInfoForUs">
-        <p>Интересные истории, скидки и промоакции тут:</p>
-        <div class="infoGroopsIfoForUs">
-            <img src="/img/icon-Ok.svg" alt="">
-            <img src="/img/icon-vk.svg" alt="">
-            <img src="/img/icon-fb.svg" alt="">
-            <img src="/img/icon-telegram.svg" alt="">
-            <img src="/img/icon-instagram.svg" alt="">
-            <img width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
-        </div>
-    </div>
-</div>
-<!-- Подвал -->
-<footer class="podval">
-    <p>О компании</p>
-    <p>Отзывы клиентов</p>
-    <p>Главные вопросы</p>
-    <p>Раскрытие информации</p>
-    <p>Вакансии</p>
-    <p>Новости</p>
-    <p>2022 © АО Почта России</p>
-</footer>
-
+            <!-- приложение -->
+            <div class="ifoForUs">
+                <div class="downPrilInfoForUs">
+                    <p>Установите приложение</p>
+                    <div class="iconPrilInfoForUs">
+                        <img class="imgIconPrilInfoForUs" src="/img/icon-GooglePlay.png" alt="">
+                        <img class="imgIconPrilInfoForUs" src="/img/icon-appStore.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="imgDownPrilInInfoForUs">
+                    <p>Интересные истории, скидки и промоакции тут:</p>
+                    <div class="infoGroopsIfoForUs">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
+                    </div>
+                    <div class="adaptivOneinfoGroopsIfoForUs">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt=""></div>
+                    <div class="adaptiveTwhoInfoGroopsIfoForUs">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+                        <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt=""></div>
+                </div>
+            </div>
+    
+            <footer class="podval">
+                <p>О компании</p>
+                <p>Отзывы клиентов</p>
+                <p>Главные вопросы</p>
+                <p id="podvalInfo" class="VNInfoPodval">Раскрытие информации</p>
+                <p class="VNInfoPodvalRf">Вакансии</p>
+                <p class="VNInfoPodval">Новости</p>
+                <p class="ttt">2022 © АО Почта России</p>
+            </footer>
+            <div class="adaptivVNInfoPodval">
+                <p class="infoPadaptivVNInfoPodval">Раскрытие информации</p>
+                <p class="infoPadaptivVNInfoPodval">Вакансии</p>
+                <p class="infoPadaptivVNInfoPodval">Новости</p>
+            </div>
+    
+            <div class="adaptivInfoPost">
+                <p class="infoPost">2022 © АО Почта России</p>
+            </div>
+            <div id="adaptivePodval" class="adaptivePodvalFourContent">
+                <p>О компании</p>
+                <p>Отзывы клиентов</p>
+            </div>
+            <div class="adaptivePodvalFourContent">
+                <p>Главные вопросы</p>
+                <p>Раскрытие информации</p>
+            </div>
+            <div class="adaptivePodvalFourContent">
+                <p>Вакансии</p>
+                <p>Новости</p>
+            </div>
+            <div id="adaptPost" class="adaptivePodvalFourContent">
+                <p>2022 © АО Почта России</p>
+            </div>
 
 
 

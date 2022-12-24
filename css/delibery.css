@@ -130,6 +130,9 @@ h3{
 .imgRegInEnter{
     margin-top: -2px;
 }
+#menuToggle{
+    display: none;
+}
 
 /* Способы и сроки доставки в Россию */
 .deliberyMetodsAndMetods{
@@ -271,6 +274,9 @@ h3{
     display: flex;
     justify-content: space-around;
 }
+.adaptivOneinfoGroopsIfoForUs,.adaptiveTwhoInfoGroopsIfoForUs{
+    display: none;
+}
 
 /* Подвал */
 .podval{
@@ -284,3 +290,558 @@ h3{
     font-size: 16px;
     color:#757D85;
 }
+.adaptivVNInfoPodval,.adaptivInfoPost,.adaptivePodvalFourContent{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* Адаптация */
+
+/* Малый экран */
+@media only screen and (max-width: 1700px) {
+
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Golos Bold';
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-family: 'Golos Regular';
+        font-size: 20px;
+    }
+    h3{
+        font-family: 'Golos DemiBold';
+        font-size: 20px;
+    }
+    /* Основной контент */
+    .osnContent{
+        margin-top: 40px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .content{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+/* Ноутбук маленький дисплей */
+@media only screen and (max-width: 1020px) {
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Golos Bold';
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-family: 'Golos Regular';
+        font-size: 18px;
+    }
+    h2{
+        font-family: 'Golos DemiBold';
+        font-size: 25px;
+    }
+    h3{
+        font-family: 'Golos DemiBold';
+        font-size: 24px;
+    }
+
+
+/* Шапка */
+.hat{
+ display: flex;
+ justify-content: space-between ;
+}
+.HatInfo{
+    display: flex;
+}
+.deliberyAHatInfo,.serviceAHatInfo,.toOrderAHatInfo{
+    text-decoration: none;
+    color: #000;
+}
+.logoHat{
+    margin-right: 55px;
+}
+.imgLogoHat{
+    width: 190px;
+}
+.textHatInfo{
+    margin-right: 55px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.regInEnter{
+    display: flex;
+}
+.loginHat{
+    margin-right: 20px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.imgRegInEnter{
+    margin-top: -2px;
+}
+.imgRegInEnter{
+    width: 30px;
+    height: 30px;
+}
+
+/* Способы и сроки доставки в Россию */
+.logoDeliberyMetodsAndMetods{
+    display: none;
+}
+.deliberyMetodsAndMetods{
+    margin-left: auto;
+    margin-right: auto;
+}
+.textDeliberyMetodsAndMetods{
+    max-width: 1920px;
+    width: auto;
+    text-align: center;
+}
+/* Сроки доставки */
+.gerbIconLeftDeliberyTime,.gerbIconRightDeliberyTime{
+    display: none;
+}
+
+/* Cпособы доставки */
+.imgImgFirstClassPacelDeliveryMetods{
+    width: 350px;
+    height: 220px;
+}
+
+
+/* Установите приложение */
+.imgIconPrilInfoForUs{
+    width: 150px;
+}
+.iconInfoGroopsIfoForUs{
+    width: 45px;
+    height: 45px;
+}
+
+
+/* Подвал */
+.podval p{
+    font-family: 'Golos DemiBold';
+    font-size: 14px;
+    color:#757D85;
+}
+.disclouresInfo{
+    display: none;
+}
+}
+
+
+
+@media only screen and (max-width: 992px) {
+
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Golos Bold';
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-family: 'Golos Regular';
+        font-size: 18px;
+    }
+    h2{
+        font-family: 'Golos DemiBold';
+        font-size: 25px;
+    }
+    h3{
+        font-family: 'Golos DemiBold';
+        font-size: 24px;
+    }
+
+
+/* Главный блок */
+.osnContent{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Шапка */
+
+.textHatInfo{
+    margin-right: 25px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.loginHat{
+    margin-right: 25px;
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.imgLogoHat{
+    width: 160px;
+}
+.imgRegInEnter{
+    width: 28px;
+    height: 28px;
+}
+
+
+}
+@media only screen and (max-width: 768px) {
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Golos Bold';
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-family: 'Golos Regular';
+        font-size: 12px;
+    }
+    h2{
+        font-family: 'Golos DemiBold';
+        font-size: 18px;
+    }
+    h3{
+        font-family: 'Golos DemiBold';
+        font-size: 16px;
+    }
+
+
+   /* Шапка */
+   .toOrderAHatInfo,.serviceAHatInfo,.deliberyAHatInfo{
+    display: none;
+}
+.burgerHatInfo{
+    display: block;
+}
+.regInEnter{
+    display: none;
+}
+#menuToggle
+{
+  display: block;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0;
+  z-index: 2; 
+  
+  -webkit-touch-callout: none;
+}
+#menuToggle span
+{
+    
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0043FA;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span
+{
+    
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #0043FA;
+}
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+    display: none;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin: 0px 0 0 0;
+  padding: 30px;
+    right: 0px;
+  
+  background-color: #ffffff;
+
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+    display: block;
+  transform: none;
+  opacity: 1;
+}
+.regInEnterLi{
+    display: flex;
+}
+#menuToggle p{
+    color: #000;
+}
+#menuToggle a{
+    text-decoration: none;
+}
+
+
+.deliberyMetodsAndMetods{
+    margin-top: 50px;
+}
+
+/* Установите приложение */
+.downPrilInfoForUs{
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgDownPrilInInfoForUs{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ifoForUs{
+    display: block;
+}
+.imgDownPrilInInfoForUs{
+    margin-top: 25px;
+}
+
+/* Как узнать стоимость */
+.buttomFormObrButtomFindOutCost{
+    margin: 0px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ttomFormObrButtom{
+    margin: 0px;
+    height: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Способы доставки */
+.buttomFindOutCost{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+}
+.textHButtomFormObrButtomFindOutCost{
+    margin: 0px;
+    height: 30px;
+    margin-top: 5px;
+}
+.imgImgFirstClassPacelDeliveryMetods{
+    width: 200px;
+    height: 150px;
+}
+
+/* Подвал */
+.podval{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.podval p{
+    font-family: 'Golos DemiBold';
+    font-size: 10px;
+    color:#757D85;
+}
+.ttt{
+    display: none;
+}
+.adaptivInfoPost{
+    display: block;
+}
+.infoPost{
+    margin-top: 2px;
+    text-align: center;
+    font-family: 'Golos DemiBold';
+    font-size: 10px;
+    color:#757D85;
+    margin-bottom: 25px;
+}
+
+
+
+
+}
+@media only screen and (max-width: 600px) {
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-family: 'Golos Bold';
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        font-family: 'Golos Regular';
+        font-size: 12px;
+    }
+    h2{
+        font-family: 'Golos DemiBold';
+        font-size: 14px;
+    }
+    h3{
+        font-family: 'Golos DemiBold';
+        font-size: 12px;
+    }
+
+/* 
+    Способы доставки */
+.imgImgFirstClassPacelDeliveryMetods{
+    width: 180px;
+    height: 130px;
+}
+.deliveryMetods p{
+    font-family: 'Golos Regular';
+    font-size: 10px;
+}
+
+
+/* Подвал */
+.adaptivVNInfoPodval,.adaptivInfoPost,.podval{
+    display: none;
+}
+#adaptivePodval{
+    margin-top: 50px;
+}
+.adaptivePodvalFourContent{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adaptivePodvalFourContent p{
+    font-family: 'Golos DemiBold';
+    font-size: 10px;
+    color:#757D85;
+}
+#adaptPost{
+    margin-bottom: 25px;
+}
+
+
+
+    
+}
+/* Телефон */
+@media only screen and (max-width: 480px) {
+.smallPackageDeliveryMetods,.sendingDeliveryMetods,.firstClassPacelDeliveryMetods{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.textinfosmallPackageDeliveryMetods,.textInfosendingDeliveryMetods,.textInfofirstClassPacelDeliveryMetods{
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.imgIconPrilInfoForUs{
+    margin: 0px;
+    width: 100px;
+}
+.iconInfoGroopsIfoForUs{
+    width: 30px;
+}
+.deliberyTime{
+    margin-top: 50px;
+}
+.textFindOutCost{
+    margin-top: 50px;
+}
+.deliveryMetods{
+    margin-top: 50px;
+}
+
+}
+
+
+
+
+
+
+
+
