@@ -10,16 +10,40 @@
 <body>
     <div class="osnContent">
         <div class="content">
-             <!-- Шапка -->
-             <div class="hat">
-                <a href="index.html"><img src="/img/Logo.svg" alt="Ошибка"></a>
+            <!-- Шапка -->
+            <div class="hat">
+                <a class="logoHat" href="index.html"><img class="imgLogoHat" src="/img/Logo.svg" alt="Ошибка"></a>
                 <div class="HatInfo">
                     <a class="deliberyAHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a>
                     <a class="serviceAHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a>
-                    <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>             
+                    <a class="toOrderAHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p>  </a>
+    
+    
+                    <nav role='navigation'>
+                        <div id="menuToggle">
+                          <input type="checkbox" />
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <ul id="menu">
+                            <a href="#">
+                            <li>
+                                <div class="regInEnterLi">
+                                    <p class="loginHat">Войти</p>
+                                    <img class="imgRegInEnter" src="/img/User.png" alt="Пфхх">
+                                </div>
+                            </li>
+                            </a>
+                            <li><a class="deliberyAburgerHatInfo" href="delibery.html"><p class="textHatInfo">Доставка</p></a></li>
+                            <li><a class="serviceAburgerHatInfo" href="services.html"><p class="textHatInfo">Услуги</p></a></li>
+                            <li><a class="toOrderAburgerHatInfo" href="toOrder.html"><p class="textHatInfo">Как заказать</p></a></li>  
+                          </ul>
+                        </div>
+                      </nav>
+          
                 </div>
                 <div class="regInEnter">
-                    <a href="https://passport.pochta.ru/pc/ext/v2.0/form/signIn?flow=OIDC&restart_uri=https%3A%2F%2Fpassport.pochta.ru%2Foauth2%2Fauthorize%3Fclient_id%3Dp3anTjRrMmp_yjzc8JoQgB6DhzMa%26scope%3Dopenid%2520firstName%2520lastName%2520middleName%2520userName%2520birthdate%2520email%2520phone%2520address%2520uai%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fwww.pochta.ru%252Fapi%252Fauth%252Fcallback%26nonce%3DXSqCzjfBsONIGRgCfbipeb3CSzeA3qEu24lgqHWnQco%26state%3DeyJyZXR1cm5UbyI6Imh0dHBzOi8vd3d3LnBvY2h0YS5ydS8ifQ%26partyType%3DPHYSICAL%26lang%3Dru%26group%3Dportal&lang=ru_RU"><p class="loginHat">Войти</p></a>
+                    <p class="loginHat">Войти</p>
                     <img class="imgRegInEnter" src="/img/User.png" alt="Пфхх">
                 </div>
             </div>
@@ -30,9 +54,9 @@
                     <p class="textInfoPTextInfoOrderBuy">Зарегистрируйтесь на нашем сайте или в мобильном приложении, чтобы получить персональный адрес и создать аккаунт для управления своими посылками.</p>
                 </div>
                 <div class="imgAndTextOrderBuy">
-                    <div class="blockImgEntryimgAndTextOrderBuy"><img src="/img/Entry.png" alt=""></div>
+                    <div class="blockImgEntryimgAndTextOrderBuy"><img class="imgBlockInfoRegistrionImgAndTextOrderBuy" src="/img/Entry.png" alt=""></div>
                     <div class="blockInfoImgAndTextOrderBuy"><h1>Или</h1></div>
-                    <div class="blockInfoRegistrionImgAndTextOrderBuy"><img src="/img/Registration.png" alt=""></div>
+                    <div class="blockInfoRegistrionImgAndTextOrderBuy"><img class="imgBlockInfoRegistrionImgAndTextOrderBuy" src="/img/Registration.png" alt=""></div>
                 </div>
             </div>
             <!-- Регистрируемся -->
@@ -43,14 +67,15 @@
                         <p class="textInfoPTextInfoRegistrionOllInfoBuyShops">Зарегистрируйтесь на нашем сайте или в мобильном приложении, чтобы получить персональный адрес в США и Европе и создать аккаунт для управления своими посылками.
                             На этот адрес вы сможете делать заказы в зарубежных интернет-магазинах. А в вашем личном кабинете будет храниться вся информация о ваших посылках. </p>
                     </div>
-                    <div class="imgRegistrionOllInfoBuyShops"><img src="/img/KonvertInBuyOrder.png" alt=""></div>
+                    <div class="imgRegistrionOllInfoBuyShops"><img class="imgImgRegistrionOllInfoBuyShops" src="/img/KonvertInBuyOrder.png" alt=""></div>
                 </div>
                 <div class="makePurchaseOllInfoBuyShops">
-                    <div class="imgMakePurchaseOllInfoBuyShops"> <img src="/img/shopsInBuyOrder.png" alt=""></div>
+
                     <div class="LettextInfoMakePurchaseOllInfoBuyShops">
                         <h1 class="textInfoHTextInfoMakePurchaseOllInfoBuyShops">Делаем покупки</h1>
                         <p class="textInfoPtextInfoMakePurchaseOllInfoBuyShops">Выбирайте товары в интернет-магазинах США и Европы. Оформляйте доставку на ваш персональный адрес у Бандерольки, оплачивайте покупки в интернет-магазинах и ожидайте, когда посылки прибудут к нам на склад. При оформлении заказа интернет-магазин указывает примерные сроки доставки каждого товара до склада Бандерольки и присылает трекинг-номер для отслеживания.</p>
                     </div>
+                    <div class="imgMakePurchaseOllInfoBuyShops"> <img class="imgImgRegistrionOllInfoBuyShops" src="/img/shopsInBuyOrder.png" alt=""></div>
                 </div>
                 <div class="createShipmentOllInfoBuyShops">
                     <div class="textInfoMakePurchaseOllInfoBuyShops">
@@ -74,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="imgMakePurchaseOllInfoBuyShops"> <img src="/img/OllBuyInBuyOrder.png" alt=""></div>
+                    <div class="imgMakePurchaseOllInfoBuyShops"> <img class="imgImgRegistrionOllInfoBuyShops" src="/img/OllBuyInBuyOrder.png" alt=""></div>
                 </div>
             </div>
 
@@ -94,25 +119,57 @@
     <div class="imgDownPrilInInfoForUs">
         <p>Интересные истории, скидки и промоакции тут:</p>
         <div class="infoGroopsIfoForUs">
-            <img src="/img/icon-Ok.svg" alt="">
-            <img src="/img/icon-vk.svg" alt="">
-            <img src="/img/icon-fb.svg" alt="">
-            <img src="/img/icon-telegram.svg" alt="">
-            <img src="/img/icon-instagram.svg" alt="">
-            <img width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt="">
         </div>
+        <div class="adaptivOneinfoGroopsIfoForUs">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-Ok.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-vk.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-fb.svg" alt=""></div>
+        <div class="adaptiveTwhoInfoGroopsIfoForUs">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-telegram.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" src="/img/icon-instagram.svg" alt="">
+            <img class="iconInfoGroopsIfoForUs" width="50px" height="49.99px" src="/img/icon-youtube.svg" alt=""></div>
     </div>
 </div>
-<!-- Подвал -->
+
 <footer class="podval">
     <p>О компании</p>
     <p>Отзывы клиентов</p>
     <p>Главные вопросы</p>
+    <p id="podvalInfo" class="VNInfoPodval">Раскрытие информации</p>
+    <p class="VNInfoPodvalRf">Вакансии</p>
+    <p class="VNInfoPodval">Новости</p>
+    <p class="ttt">2022 © АО Почта России</p>
+</footer>
+<div class="adaptivVNInfoPodval">
+    <p class="infoPadaptivVNInfoPodval">Раскрытие информации</p>
+    <p class="infoPadaptivVNInfoPodval">Вакансии</p>
+    <p class="infoPadaptivVNInfoPodval">Новости</p>
+</div>
+
+<div class="adaptivInfoPost">
+    <p class="infoPost">2022 © АО Почта России</p>
+</div>
+<div id="adaptivePodval" class="adaptivePodvalFourContent">
+    <p>О компании</p>
+    <p>Отзывы клиентов</p>
+</div>
+<div class="adaptivePodvalFourContent">
+    <p>Главные вопросы</p>
     <p>Раскрытие информации</p>
+</div>
+<div class="adaptivePodvalFourContent">
     <p>Вакансии</p>
     <p>Новости</p>
+</div>
+<div id="adaptPost" class="adaptivePodvalFourContent">
     <p>2022 © АО Почта России</p>
-</footer>
+</div>
 
 
 
