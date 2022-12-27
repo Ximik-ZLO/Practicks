@@ -88,6 +88,30 @@ h3{
     font-family: 'Golos DemiBold';
     font-size: 20px;
 }
+/* Убрать синий  */
+.regInEnter a{
+    text-decoration: none;
+    color: #000;
+}
+.podval a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivVNInfoPodval a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivInfoPost a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivePodvalFourContent a{
+    text-decoration: none;
+    color: #757D85;
+}
+a{
+    text-decoration: none;
+}
 /* Главный блок */
 .osnContent{
     margin-top: 40px;
@@ -366,7 +390,7 @@ h3{
     {
         display: none;
       position: absolute;
-      height: 150px;
+      height: 200px;
       width: 150px;
       margin: 0px 0 0 0;
       padding: 30px;

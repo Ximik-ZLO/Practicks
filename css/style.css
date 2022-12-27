@@ -88,6 +88,28 @@ h3{
     font-size: 20px;
 }
 
+/* Убрать синий  */
+.regInEnter a{
+    text-decoration: none;
+    color: #000;
+}
+.podval a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivVNInfoPodval a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivInfoPost a{
+    text-decoration: none;
+    color: #757D85;
+}
+.adaptivePodvalFourContent a{
+    text-decoration: none;
+    color: #757D85;
+}
+
 
 
 /* Главный блок */
@@ -299,6 +321,10 @@ h3{
     width: 10px;
     padding-left: 6px;
     padding-top: 5px;
+}
+.blockBottomGoInShoping a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 
